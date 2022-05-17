@@ -18,13 +18,14 @@ Apply Feature Transformation techniques to all the feature of the data set
 Save the data to the file
 
 # CODE
-
-Program Developed: B.Dhivya Shri
+```
+Program Developed: Mudi Pavan kumar Reddy
 Register number:212221230009
-
+```
 # Data_to_Transform.csv :
 
 # importing packages
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -156,7 +157,7 @@ sm.qqplot(df['Highly Negative Skew'],line='45')
 plt.show()
 sm.qqplot(dfhn['HNS_qt'],line='45')
 plt.show()
-
+```
 
 # OUPUT
 ![image](https://user-images.githubusercontent.com/94505585/168719811-58c02a74-6d6f-4600-b62e-3f543cb8c356.png)
@@ -175,7 +176,7 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/94505585/168720288-3ec8f919-e19f-48f4-8bdd-f7e593933c44.png)
 
 # For Titanic_dataset.csv:
-
+```
 # importing packages
 import numpy as np
 import pandas as pd
@@ -251,7 +252,7 @@ df["Fare"].hist()
 df["Fare_yj"].hist()
 df["Pclass"].hist()
 df["Pclass_sq"].hist()
-
+```
 # OUTPUT:
 ![image](https://user-images.githubusercontent.com/94505585/168720676-79755523-1ad4-422d-80db-cde5188437f7.png)
 ![image](https://user-images.githubusercontent.com/94505585/168720699-5c73875f-c913-47a0-adf0-292a4259cc5a.png) ![image](https://user-images.githubusercontent.com/94505585/168720725-d06e663b-2769-494f-aa34-a2b8c5464372.png) ![image](https://user-images.githubusercontent.com/94505585/168720746-c60ecf6a-dd78-4e6e-a688-4111240e9942.png)
